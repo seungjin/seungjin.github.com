@@ -4,116 +4,147 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-     <title>One Page Resume</title>
-
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
-        .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { width: 600px; float: right; }
-        dd.clear { float: none; margin: 0; height: 15px; }
-     </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Seung-jin Kim</title>
+  <style type="text/css">
+    * { margin: 0; padding: 0; }
+    body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+    .clear { clear: both; }
+    #page-wrap { width: 800px; margin: 40px auto 60px; }
+    #pic { float: right; margin: -30px 0 0 0; }
+    h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+    h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+    h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+    p { margin: 0 0 16px 0; }
+    a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+    a:hover { border-bottom-style: solid; color: black; }
+    ul { margin: 0 0 32px 17px; }
+    #objective { width: 800px; float: left; }
+    #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+    dt { font-style: italic; 
+         font-weight: bold; 
+         font-size: 18px; 
+         text-align: right; 
+         padding: 0 26px 0 0; 
+         width: 50px; 
+         float: left; 
+         height: 100px; 
+         /*border-right: 1px solid #999;*/  }
+    dd { width: 700px; 
+         float: right; 
+         /*border-left: 1px solid #999;**/ }
+    dd.clear { float: none; margin: 0; height: 15px; }
+  </style>
 </head>
 
 <body>
+ <div id="page-wrap">
 
-    <div id="page-wrap">
-    
-        <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" />
-    
-        <div id="contact-info" class="vcard">
+  <div id="contact-info" class="vcard">        
+      <!-- Microformats! -->
+      <h1 class="fn">Seung-jin Kim</h1>
+      <p>
+        Email: <a class="email" href="mailto:seungjin@seungjin.net">seungjin@seungjin.net</a><br/>
+        Twitter: <span class="tel">@seungjin</span><br/>
+        Github: <span class="tel">github.com/seungjin</span>
+      </p>
+  </div>        
+  <div id="objective">
+    <p>
+      I am a geek or/and nerd. I am trying to write my story to another geek to try to find out my next stuff I can love. I am a nerd/geek who need to build stuffs. I like to build and solve the problem more than eating and sleeping. 
+    </p>
+  </div>
         
-            <!-- Microformats! -->
-        
-            <h1 class="fn">Seung-jin Kim</h1>
-        
-            <p>
-                Email: <a class="email" href="mailto:greatoldone@lovecraft.com">greatoldone@lovecraft.com</a><br/>
-                Phone: <span class="tel">upon request</span>
-            </p>
-        </div>
-                
-        <div id="objective">
-            <p>
-                I am an outgoing and energetic (ask anybody) young professional, seeking a 
-                career that fits my professional skills, personality, and murderous tendencies. 
-                My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
-                I can bring world domination to your organization. 
-            </p>
-        </div>
-        
-        <div class="clear"></div>
-        
-        <dl>
-            <dd class="clear"></dd>
-            
-            <dt>Education</dt>
-            <dd>
-                <h2>Withering Madness University - Planet Vhoorl</h2>
-                <p><strong>Major:</strong> Public Relations<br />
-                   <strong>Minor:</strong> Scale Tending</p>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Skills</dt>
-            <dd>
-                <h2>Office skills</h2>
-                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
-                
-                <h2>Computer skills</h2>
-                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Experience</dt>
-            <dd>
-                <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
-                <ul>
-                    <li>Inspired and won highest peasant death competition among servants</li>
-                    <li>Helped coordinate managers to grow cult following</li>
-                    <li>Provided untimely deaths to all who opposed</li>
-                </ul>
-                
-                <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
-                <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
-                </ul> 
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>References</dt>
-            <dd>Available on request</dd>
-            
-            <dd class="clear"></dd>
-        </dl>
-        
-        <div class="clear"></div>
-    
+    <div class="clear"></div>
+      <dt>Projects</dt>
+        <dd>
+          
+          <h2>Atmosphere <span>April 2010 - Curent</span></h2>
+          <ul>
+            <li>Initiated, architectured and developed Atmosphere Project</li>
+            <li>Atmosphere is an integrative, private, self-service cloud computing platform/service for plant scientist community</li>
+            <li>As of July 2011, Atmosphere have handled and served more than 2,000 Virtual Machines and cloud resources to its community members</li>
+            <li>Currently Atmosphere runs on 20 nodes cluster system (total 298 cores, 596 Gigabyte RAM, 50 Terabyte storage system). More than 200 researchers/scientist since Jan 2011. since Jan 2011, Atmosphere handled 2000 virtual machines and delivered cloud resources to its users. Detailed Atmosphere information(marketing materials):</li>
+            <li>Atmosphere API is used </li>
+            <li>Developed Atmosphere API, Service layer(server side) and Frontend
+            <li>Python, Django framework using Celery and rabiitMQ</li>
+            <li>Front side: EXTJS 3, Bayeux protocol(node.js and faye), RequireJS</li>
+            <li>Scheduling and distributed task: Celery, RabbitMQ</li>
+            <li>Detailed project/technical description and demonstration(code/service) is available</li>
+            <li>Project url: http://www.iplantcollaborative.org/discover/atmosphere</li>
+            <li>Source: http://github.com/iplantcollaborativeopensource/iplant-atmosphere/</li>
+            <li>Job title: Infratructure Integrator</li>
+            <li>Employer: iPlant Collaborative, BIO5 Institute, University of Arizona</li>
+          </ul> 
+
+          <h2>AVOG () <span>2008 - 2010</span></h2>
+          <ul>
+            <li>Project name: GDDRT</li>
+            <li>technical explanation available based on request<li>
+            <li>Source: Funding agency does not allow to open source<li> 
+            <li>Funded by TSWG(http://www.tswg.gov) - United States Interagency program for research and development into counter-terrorism measures.</li>
+            <li>Job title: Application Systems Analyst, Senior</li>
+            <li>Employer: Arizona Research Laboratories, University of Arizona</li>
+            <li>Duration: to April, 2010</li>
+          </ul> 
+
+          <h2>Human Origin Genogrphy Laboratory <span>2007 - 2010</span></h2>
+          <ul>
+            <li>Project name: GDDRT</li>
+            <li>technical explanation available based on request<li>
+            <li>Source: Funding agency does not allow to open source<li> 
+            <li>Funded by TSWG(http://www.tswg.gov) - United States Interagency program for research and development into counter-terrorism measures.</li>
+            <li>Job title: Application Systems Analyst, Senior</li>
+            <li>Employer: Arizona Research Laboratories, University of Arizona</li>
+            <li>Duration: to April, 2010</li>
+          </ul>
+
+         </dd>
+      </dt>
+
+      <dd class="clear"></dd> 
+      <dt>Education</dt> 
+        <dd>
+         <ul>
+         <h2>University of Arizona <span>2006</span></h2> 
+            <ul>
+                <li>Bacherol of Science at Business Administration</li>
+                <li>Major: Management Information Systems</li>
+            </ul>
+         </ul>
+        </dd>
+      
+
+      <dd class="clear"></dd> 
+      <dt>Fun trips</dt> 
+        <dd> 
+            <ul>
+            <li>Googleio 2011 - I am a winner of googleio last-call challenge</li>
+            <li>Web 2.0 Conference, San Francisco, CA</li>
+            <li>CloudCom Conf 2010</li> 
+            <li>YUI Conf 2010, Sunnyvale, CA</li>
+            <li>Hadoop conference 2010, San Jose, CA</li>
+          </ul>
+        </dd> 
+     
+
+      <dd class="clear"></dd> 
+      <dt>Daily fun</dt> 
+      <dd> 
+            <ul>
+            <li>Programming</li>
+            <li>Drinking Coffee</li>
+            <li>Riding my single speed bicycle to commute</li>
+          </ul>
+        </dd> 
+
+      
+
+
+
     </div>
+            
+   
 
 </body>
 
